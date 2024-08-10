@@ -1,0 +1,50 @@
+:root{
+    /* Color theme taken from  Adobe Color */
+    /* Color Theme Swatches in Hex */
+    --cream: #EEF2F0;
+    --dk-blue: #64A0A9; 
+    --med-blue: #58B6C0;
+    --lt-blue: #78BDC1;
+
+    /* Other swatches for text & accents */
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --med-gray: #555;
+    --dk-gray: #222;
+
+    /* Shadows for Elements that are Not Square */
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+
+    /* Adobe Font Family with Fallbacks */
+    --fonts: "nnito-sans", Gupter, sans-serif;
+}
+
+body{
+    font-family: var(--fonts);
+    line-height: 2;
+    color: var(--dk-gray);
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--lt-blue);
+}
+
+body h1{
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-style: normal;
+}
+
+head{
+    background-color: var(--dk-blue);
+    background-image: var(--lt-blue);
+    padding-top: 3 rem;
+    padding-left: 2 rem;
+    padding-right: 4 rem;
+    padding-bottom: 2 rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
